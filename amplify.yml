@@ -9,7 +9,7 @@ frontend:
         - npm run getparams -- $SSM_PARAMETER_NAME
         - npm run build
   artifacts:
-    baseDirectory: dist
+    baseDirectory: build
     files:
       - '**/*'
   cache:

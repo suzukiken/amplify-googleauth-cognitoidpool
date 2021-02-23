@@ -8,7 +8,7 @@ const args = process.argv;
 console.log(args);
 
 const aws_ssm_param_name = args[2]; // 'ampapp-aws-exports'
-const save_file_path = "src/aws-exports.ts";
+const save_file_path = "src/aws-exports.js";
 
 exec(`aws ssm get-parameter --name ${aws_ssm_param_name}`, (error, stdout, stderr) => {
     if (error) {

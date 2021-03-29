@@ -5,4 +5,4 @@ Amplify JavaScript Web page which includes authentication with Cognito Id Pool t
 * `npm install`
 * `npm start`
 
-[description](https://figmentresearch.com/aws/amplify-googleauth-cognitopool)
+[description](https://figmentresearch.com/aws/amplify-googleauth-cognitoidpool)
